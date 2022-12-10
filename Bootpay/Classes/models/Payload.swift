@@ -6,6 +6,7 @@
 //
 
 import ObjectMapper
+import Foundation
 
 //extension NSDictionary: Codable {
 //    

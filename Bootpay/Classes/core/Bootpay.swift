@@ -7,6 +7,7 @@
 
 import Foundation
 import WebKit
+import UIKit
 
 @objc public class Bootpay: NSObject {
     @objc public static let shared = Bootpay()
