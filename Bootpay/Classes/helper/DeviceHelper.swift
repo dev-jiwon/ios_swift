@@ -4,6 +4,7 @@
 //
 //  Created by Taesup Yoon on 2021/12/09.
 //
+import UIKit
 
 enum DeviceHelper {
     case nativeMac
