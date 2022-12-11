@@ -47,11 +47,10 @@ import WebKit
          
         #elseif os(iOS)
             if #available(iOS 11.0, *) {
-                let window = UIApplication.shared.keyWindow
                 webview = WKWebView(frame: CGRect(x: 0,
                                                   y: 0,
                                                   width: UIScreen.main.bounds.width,
-                                                  height: UIScreen.main.bounds.height - (window?.safeAreaInsets.bottom ?? UIScreen.main.bounds.height) - (window?.safeAreaInsets.top ?? 0)),
+                                                  height: self.safeAreaLayoutGuide.layoutFrame.size.height),
                                     configuration: configuration)
             } else {
                 webview = WKWebView(frame: CGRect(x: 0,
